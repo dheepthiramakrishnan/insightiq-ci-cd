@@ -1,0 +1,30 @@
+# --- Backend Framework ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# --- Database ---
+sqlalchemy>=2.0.36
+pymysql==1.1.1
+cryptography==42.0.8
+
+# --- Data Processing ---
+pandas>=2.2.3
+numpy>=2.0.0
+
+# --- Visualization ---
+plotly==5.22.0
+
+# --- AI Integration (Groq) ---
+groq>=0.9.0
+
+# --- File Uploads / Validation ---
+python-multipart==0.0.9
+
+# --- PDF Report Generation ---
+reportlab==4.2.0
+
+# --- Environment Variables ---
+python-dotenv==1.0.1
+
+# --- Templating (for serving frontend HTML via FastAPI, if used) ---
+jinja2==3.1.4

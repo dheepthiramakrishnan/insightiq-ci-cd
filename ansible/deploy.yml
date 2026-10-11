@@ -1,0 +1,101 @@
+---
+- name: Deploy InsightIQ (FastAPI app + MySQL)
+  hosts: appservers
+  become: false
+  vars:
+    image_name: dheepthiramu/insightiq
+    image_tag: latest
+    network_name: insightiq-net
+    db_container: insightiq-db
+    app_container: insightiq-app
+    db_name: insightiq_db
+    db_user: insightiq
+    host_port: 8000
+    # Where the health check reaches the app (APP_HOST is set when Jenkins itself runs in Docker)
+    health_host: "{{ lookup('env', 'APP_HOST') | default('localhost', true) }}"
+    # Secrets come from the Jenkins credentials store via environment variables
+    db_password: "{{ lookup('env', 'DB_PASSWORD') }}"
+    groq_api_key: "{{ lookup('env', 'GROQ_API_KEY') }}"
+    app_secret_key: "{{ lookup('env', 'APP_SECRET_KEY') }}"
+
+  tasks:
+    - name: Make sure the required secrets were provided
+      ansible.builtin.assert:
+        that:
+          - db_password | length > 0
+          - app_secret_key | length > 0
+        fail_msg: "DB_PASSWORD and APP_SECRET_KEY must be set (Jenkins credentials)."
+      no_log: true
+
+    - name: Create the Docker network
+      community.docker.docker_network:
+        name: "{{ network_name }}"
+
+    - name: Start the MySQL container (data kept in a named volume)
+      community.docker.docker_container:
+        name: "{{ db_container }}"
+        image: mysql:8.0
+        state: started
+        restart_policy: unless-stopped
+        networks:
+          - name: "{{ network_name }}"
+        volumes:
+          - insightiq_mysql_data:/var/lib/mysql
+        env:
+          MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+          MYSQL_DATABASE: "{{ db_name }}"
+          MYSQL_USER: "{{ db_user }}"
+          MYSQL_PASSWORD: "{{ db_password }}"
+      no_log: true
+
+    - name: Wait until MySQL accepts connections
+      community.docker.docker_container_exec:
+        container: "{{ db_container }}"
+        command: "mysqladmin ping -h 127.0.0.1 -u{{ db_user }} -p{{ db_password }} --silent"
+      register: mysql_ping
+      until: mysql_ping.rc == 0
+      retries: 30
+      delay: 4
+      failed_when: false
+      no_log: true
+
+    - name: Pull the new application image
+      community.docker.docker_image:
+        name: "{{ image_name }}"
+        tag: "{{ image_tag }}"
+        source: pull
+        force_source: true
+
+    - name: Run (or replace) the InsightIQ container
+      community.docker.docker_container:
+        name: "{{ app_container }}"
+        image: "{{ image_name }}:{{ image_tag }}"
+        state: started
+        recreate: true
+        restart_policy: unless-stopped
+        networks:
+          - name: "{{ network_name }}"
+        published_ports:
+          - "{{ host_port }}:8000"
+        volumes:
+          - insightiq_uploads:/app/backend/app/uploads
+        env:
+          APP_ENV: production
+          APP_SECRET_KEY: "{{ app_secret_key }}"
+          GROQ_API_KEY: "{{ groq_api_key }}"
+          DB_HOST: "{{ db_container }}"
+          DB_PORT: "3306"
+          DB_USER: "{{ db_user }}"
+          DB_PASSWORD: "{{ db_password }}"
+          DB_NAME: "{{ db_name }}"
+          DATABASE_URL: "mysql+pymysql://{{ db_user }}:{{ db_password | urlencode }}@{{ db_container }}:3306/{{ db_name }}"
+      no_log: true
+
+    - name: Wait for the app to report healthy
+      ansible.builtin.uri:
+        url: "http://{{ health_host }}:{{ host_port }}/health"
+        status_code: 200
+      register: health
+      retries: 15
+      delay: 4
+      until: health.status == 200

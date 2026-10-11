@@ -1,0 +1,210 @@
+/*
+  style.css
+  ----------
+  InsightIQ - blue & white professional theme.
+*/
+
+:root {
+  --iq-blue-900: #0b3a91;
+  --iq-blue-700: #1a56db;
+  --iq-blue-500: #3b82f6;
+  --iq-blue-100: #eaf1fd;
+  --iq-slate-900: #1e293b;
+  --iq-slate-500: #64748b;
+  --iq-slate-200: #e2e8f0;
+  --iq-bg: #f6f8fc;
+  --iq-white: #ffffff;
+  --iq-green: #16a34a;
+  --iq-red: #dc2626;
+  --sidebar-width: 240px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--iq-bg);
+  color: var(--iq-slate-900);
+  margin: 0;
+}
+
+/* ---------------- Sidebar ---------------- */
+
+.iq-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: var(--sidebar-width);
+  background: linear-gradient(180deg, var(--iq-blue-900) 0%, var(--iq-blue-700) 100%);
+  color: var(--iq-white);
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.iq-sidebar .brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0 24px 24px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 12px;
+}
+
+.iq-sidebar .brand span { color: #93c5fd; }
+
+.iq-sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 12px 24px;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+  transition: all 0.15s ease-in-out;
+}
+
+.iq-sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--iq-white);
+}
+
+.iq-sidebar .nav-link.active {
+  background: rgba(255, 255, 255, 0.12);
+  border-left-color: #93c5fd;
+  color: var(--iq-white);
+}
+
+.iq-sidebar .nav-link i { width: 20px; margin-right: 10px; }
+
+/* ---------------- Main content ---------------- */
+
+.iq-main {
+  margin-left: var(--sidebar-width);
+  padding: 28px 32px 60px 32px;
+}
+
+.iq-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.iq-topbar h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--iq-slate-900);
+  margin: 0;
+}
+
+.iq-topbar p {
+  color: var(--iq-slate-500);
+  margin: 2px 0 0 0;
+  font-size: 0.9rem;
+}
+
+/* ---------------- Cards ---------------- */
+
+.iq-card {
+  background: var(--iq-white);
+  border: 1px solid var(--iq-slate-200);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.iq-kpi-card {
+  background: var(--iq-white);
+  border: 1px solid var(--iq-slate-200);
+  border-left: 4px solid var(--iq-blue-500);
+  border-radius: 12px;
+  padding: 18px 20px;
+  height: 100%;
+}
+
+.iq-kpi-card .label {
+  color: var(--iq-slate-500);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.iq-kpi-card .value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--iq-slate-900);
+  margin-top: 4px;
+}
+
+.iq-kpi-card .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--iq-blue-100);
+  color: var(--iq-blue-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.iq-section-title {
+  font-weight: 700;
+  color: var(--iq-slate-900);
+  margin-bottom: 14px;
+  font-size: 1.05rem;
+}
+
+/* ---------------- Buttons ---------------- */
+
+.btn-iq-primary {
+  background-color: var(--iq-blue-700);
+  border-color: var(--iq-blue-700);
+  color: var(--iq-white);
+  font-weight: 600;
+}
+
+.btn-iq-primary:hover {
+  background-color: var(--iq-blue-900);
+  border-color: var(--iq-blue-900);
+  color: var(--iq-white);
+}
+
+/* ---------------- Upload dropzone ---------------- */
+
+.iq-dropzone {
+  border: 2px dashed var(--iq-blue-500);
+  border-radius: 12px;
+  background: var(--iq-blue-100);
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--iq-blue-900);
+  cursor: pointer;
+  transition: background 0.15s ease-in-out;
+}
+
+.iq-dropzone:hover { background: #ddeafd; }
+
+/* ---------------- Insights ---------------- */
+
+.iq-insight-block {
+  border-left: 4px solid var(--iq-blue-500);
+  background: var(--iq-blue-100);
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.iq-insight-list li { margin-bottom: 6px; }
+
+/* ---------------- Alerts / status ---------------- */
+
+.iq-status-ok { color: var(--iq-green); }
+.iq-status-error { color: var(--iq-red); }
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width: 900px) {
+  .iq-sidebar { width: 72px; }
+  .iq-sidebar .brand, .iq-sidebar .nav-link span { display: none; }
+  .iq-main { margin-left: 72px; }
+}

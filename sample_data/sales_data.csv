@@ -1,0 +1,301 @@
+Order ID,Customer Name,Region,Category,Product Name,Quantity,Sales,Profit,Order Date
+ORD-1194,Aditya Rao,West,Furniture,Office Chair,1,79.45,14.24,2024-01-01
+ORD-1025,Rohan Gupta,Central,Technology,Webcam HD,10,8846.65,1584.96,2024-01-02
+ORD-1012,Rohan Sharma,East,Furniture,Filing Cabinet,3,409.62,46.69,2024-01-05
+ORD-1118,Deepa Reddy,Central,Office Supplies,Sticky Notes Pack,6,171.44,29.71,2024-01-07
+ORD-1227,Priya Nair,North,Furniture,Standing Desk,9,1879.5,-142.86,2024-01-12
+ORD-1064,Aarav Reddy,West,Technology,Laptop Pro 15,6,3255.06,896.08,2024-01-12
+ORD-1138,Manoj Nair,South,Technology,Webcam HD,6,1884.76,389.15,2024-01-16
+ORD-1158,Sneha Nair,West,Furniture,Desk Lamp,4,413.66,-4.02,2024-01-17
+ORD-1237,Meera Reddy,Central,Technology,Mechanical Keyboard,10,8071.93,2331.45,2024-01-17
+ORD-1132,Ananya Iyer,Central,Office Supplies,Ballpoint Pens (Box),3,123.54,37.29,2024-01-17
+ORD-1226,Aarav Menon,East,Office Supplies,Ballpoint Pens (Box),4,251.18,50.15,2024-01-25
+ORD-1207,Suresh Gupta,North,Technology,Wireless Mouse,6,4467.01,1210.79,2024-01-26
+ORD-1165,Divya Krishnan,East,Furniture,Filing Cabinet,1,118.35,-6.38,2024-01-27
+ORD-1127,Rahul Sharma,North,Technology,Wireless Mouse,3,353.07,85.71,2024-01-29
+ORD-1058,Meera Krishnan,West,Office Supplies,Binder Clips,2,215.14,29.4,2024-01-29
+ORD-1014,Karthik Gupta,West,Technology,External SSD 1TB,7,2750.51,657.06,2024-02-05
+ORD-1213,Sneha Verma,West,Office Supplies,Ballpoint Pens (Box),6,429.09,72.32,2024-02-05
+ORD-1030,Pooja Patel,South,Office Supplies,Printer Paper A4,6,212.99,34.29,2024-02-07
+ORD-1060,Sanjay Menon,South,Furniture,Filing Cabinet,7,2320.51,398.91,2024-02-08
+ORD-1161,Priya Iyer,West,Office Supplies,Sticky Notes Pack,4,216.04,45.98,2024-02-08
+ORD-1201,Kavya Reddy,West,Furniture,Conference Table,2,794.08,-20.79,2024-02-12
+ORD-1278,Manoj Iyer,West,Furniture,Standing Desk,9,1082.32,3.35,2024-02-13
+ORD-1032,Rohan Sharma,South,Technology,External SSD 1TB,1,895.31,149.95,2024-02-15
+ORD-1134,Ritu Krishnan,West,Furniture,Storage Cabinet,11,7613.18,1394.87,2024-02-16
+ORD-1106,Karthik Rao,West,Technology,External SSD 1TB,10,7032.72,1009.96,2024-02-20
+ORD-1116,Rohan Rao,North,Office Supplies,Ink Cartridge,7,575.87,60.42,2024-02-23
+ORD-1114,Ritu Menon,South,Furniture,Desk Lamp,3,478.06,-21.71,2024-02-24
+ORD-1257,Vikram Reddy,North,Technology,USB-C Hub,10,5728.47,795.53,2024-02-26
+ORD-1274,Aarav Verma,East,Furniture,Desk Lamp,5,751.07,74.55,2024-02-26
+ORD-1143,Manoj Krishnan,South,Office Supplies,Desk Organizer,8,154.48,52.38,2024-03-01
+ORD-1234,Ananya Reddy,South,Technology,27in Monitor,10,6256.38,609.52,2024-03-05
+ORD-1276,Sanjay Sharma,Central,Office Supplies,Stapler,7,737.07,174.1,2024-03-08
+ORD-1255,Manoj Krishnan,North,Office Supplies,Stapler,2,184.5,49.74,2024-03-10
+ORD-1160,Rohan Nair,South,Office Supplies,Whiteboard,7,87.83,26.82,2024-03-19
+ORD-1111,Rahul Menon,South,Technology,Laptop Pro 15,10,512.61,110.66,2024-03-24
+ORD-1049,Rahul Iyer,West,Technology,Laptop Pro 15,3,1715.1,230.06,2024-03-30
+ORD-1065,Kavya Rao,Central,Office Supplies,Ink Cartridge,5,184.49,27.13,2024-03-30
+ORD-1042,Arjun Reddy,North,Furniture,Standing Desk,1,170.91,-9.07,2024-04-05
+ORD-1128,Sneha Sharma,South,Technology,External SSD 1TB,11,3250.77,622.85,2024-04-07
+ORD-1231,Pooja Sharma,North,Office Supplies,Binder Clips,4,311.27,48.94,2024-04-10
+ORD-1216,Kavya Iyer,West,Furniture,Desk Lamp,6,2501.89,298.21,2024-04-25
+ORD-1202,Kavya Reddy,West,Office Supplies,Binder Clips,7,381.84,123.78,2024-04-26
+ORD-1101,Aarav Nair,West,Technology,Laptop Pro 15,6,3924.57,680.89,2024-04-27
+ORD-1261,Deepa Sharma,North,Technology,Webcam HD,11,8020.93,1938.23,2024-04-27
+ORD-1147,Manoj Rao,West,Technology,27in Monitor,3,2224.85,236.08,2024-04-29
+ORD-1186,Kavya Sharma,East,Technology,Mechanical Keyboard,9,1652.9,151.91,2024-04-30
+ORD-1075,Aarav Rao,East,Office Supplies,Ballpoint Pens (Box),7,456.5,125.27,2024-05-17
+ORD-1139,Rohan Verma,North,Technology,Mechanical Keyboard,2,116.58,31.32,2024-05-20
+ORD-1222,Sneha Iyer,South,Technology,Mechanical Keyboard,7,1253.82,309.15,2024-05-22
+ORD-1183,Neha Rao,South,Technology,Mechanical Keyboard,7,2442.58,484.21,2024-05-24
+ORD-1098,Ananya Sharma,East,Furniture,Storage Cabinet,7,2385.58,174.73,2024-05-24
+ORD-1066,Karthik Krishnan,East,Technology,Mechanical Keyboard,4,3552.56,797.69,2024-05-24
+ORD-1085,Deepa Krishnan,Central,Furniture,Office Chair,4,1149.07,108.76,2024-05-25
+ORD-1068,Suresh Reddy,Central,Technology,Noise Cancelling Headphones,7,2755.76,673.51,2024-05-25
+ORD-1219,Deepa Rao,North,Technology,External SSD 1TB,8,4034.91,1051.13,2024-05-28
+ORD-1124,Meera Nair,Central,Furniture,Desk Lamp,9,2118.56,140.36,2024-06-01
+ORD-1256,Aditya Nair,North,Office Supplies,Whiteboard,4,378.98,58.48,2024-06-02
+ORD-1100,Deepa Sharma,West,Furniture,Storage Cabinet,4,2138.14,153.83,2024-06-05
+ORD-1223,Kavya Sharma,South,Office Supplies,Whiteboard,10,670.69,172.36,2024-06-06
+ORD-1178,Aditya Sharma,West,Technology,27in Monitor,7,3064.99,818.56,2024-06-07
+ORD-1047,Suresh Nair,East,Furniture,Office Chair,8,5312.73,973.69,2024-06-08
+ORD-1028,Rohan Krishnan,North,Furniture,Desk Lamp,2,325.83,21.06,2024-06-11
+ORD-1171,Arjun Sharma,East,Technology,Wireless Mouse,4,1390.84,181.54,2024-06-14
+ORD-1125,Meera Menon,North,Furniture,Filing Cabinet,5,1143.79,-22.93,2024-06-16
+ORD-1206,Sneha Nair,South,Office Supplies,Whiteboard,4,60.04,18.25,2024-06-20
+ORD-1239,Divya Menon,East,Furniture,Bookshelf,8,1642.06,273.92,2024-06-21
+ORD-1295,Neha Patel,West,Technology,External SSD 1TB,3,2065.22,518.84,2024-06-21
+ORD-1113,Manoj Rao,Central,Technology,External SSD 1TB,3,289.53,70.61,2024-06-23
+ORD-1115,Sanjay Iyer,South,Office Supplies,Ink Cartridge,1,7.92,1.1,2024-06-26
+ORD-1137,Suresh Iyer,North,Furniture,Storage Cabinet,3,1516.87,2.98,2024-07-01
+ORD-1233,Neha Gupta,South,Technology,USB-C Hub,5,1864.44,542.47,2024-07-01
+ORD-1291,Rohan Nair,West,Furniture,Office Chair,10,3880.99,-32.63,2024-07-09
+ORD-1290,Rohan Rao,North,Technology,External SSD 1TB,8,799.13,74.89,2024-07-19
+ORD-1108,Sanjay Rao,Central,Technology,Webcam HD,5,1831.01,432.23,2024-07-20
+ORD-1269,Aarav Gupta,East,Furniture,Conference Table,6,3815.36,-356.56,2024-07-21
+ORD-1076,Deepa Rao,West,Office Supplies,Stapler,5,588.52,131.33,2024-07-23
+ORD-1189,Karthik Reddy,North,Technology,Webcam HD,11,3430.84,606.6,2024-07-24
+ORD-1292,Neha Nair,South,Technology,Laptop Pro 15,4,3156.94,762.45,2024-07-25
+ORD-1026,Karthik Gupta,Central,Office Supplies,Binder Clips,9,333.63,91.78,2024-07-26
+ORD-1109,Rohan Nair,East,Office Supplies,Whiteboard,9,938.74,310.48,2024-07-28
+ORD-1169,Rahul Krishnan,West,Furniture,Sofa Set,1,669.7,115.42,2024-08-01
+ORD-1112,Divya Sharma,South,Furniture,Filing Cabinet,7,3087.32,-246.61,2024-08-02
+ORD-1152,Priya Rao,South,Office Supplies,Sticky Notes Pack,11,1148.58,325.6,2024-08-03
+ORD-1008,Divya Reddy,North,Furniture,Sofa Set,2,810.81,61.64,2024-08-04
+ORD-1059,Suresh Sharma,East,Technology,27in Monitor,6,4434.05,1271.74,2024-08-04
+ORD-1044,Kavya Verma,South,Technology,USB-C Hub,3,2075.24,111.23,2024-08-07
+ORD-1190,Rahul Iyer,Central,Furniture,Filing Cabinet,9,4221.33,677.0,2024-08-10
+ORD-1091,Karthik Menon,West,Furniture,Bookshelf,10,2671.55,73.82,2024-08-12
+ORD-1236,Sneha Iyer,South,Furniture,Filing Cabinet,4,863.3,82.46,2024-08-14
+ORD-1241,Karthik Nair,North,Office Supplies,Sticky Notes Pack,5,247.87,53.41,2024-08-15
+ORD-1010,Divya Patel,North,Technology,27in Monitor,3,2109.88,144.55,2024-08-18
+ORD-1238,Pooja Sharma,West,Furniture,Office Chair,10,6554.04,-157.84,2024-08-19
+ORD-1122,Manoj Iyer,Central,Furniture,Bookshelf,3,1163.92,142.59,2024-08-24
+ORD-1080,Suresh Krishnan,North,Technology,Wireless Mouse,10,7274.93,1505.73,2024-08-26
+ORD-1013,Arjun Verma,South,Furniture,Sofa Set,10,3411.75,-134.71,2024-08-28
+ORD-1170,Neha Menon,North,Furniture,Office Chair,6,1167.74,4.44,2024-08-29
+ORD-1268,Ananya Krishnan,West,Office Supplies,Stapler,4,35.46,4.1,2024-09-06
+ORD-1225,Neha Nair,North,Technology,Wireless Mouse,2,1182.47,302.26,2024-09-09
+ORD-1081,Manoj Verma,Central,Furniture,Bookshelf,4,2303.88,286.78,2024-09-09
+ORD-1057,Rahul Iyer,East,Technology,Webcam HD,9,6254.09,1279.3,2024-09-09
+ORD-1211,Rahul Verma,East,Technology,27in Monitor,9,3385.61,672.45,2024-09-10
+ORD-1249,Divya Rao,East,Furniture,Desk Lamp,7,1229.06,-103.05,2024-09-12
+ORD-1120,Rohan Gupta,West,Technology,Wireless Mouse,7,1893.74,390.18,2024-09-12
+ORD-1092,Neha Menon,North,Furniture,Filing Cabinet,5,1919.53,344.76,2024-09-15
+ORD-1284,Aarav Gupta,South,Office Supplies,Binder Clips,5,409.05,105.81,2024-09-16
+ORD-1102,Suresh Rao,South,Office Supplies,Desk Organizer,4,202.75,60.69,2024-09-17
+ORD-1199,Aarav Sharma,South,Furniture,Bookshelf,1,344.43,-32.93,2024-09-23
+ORD-1018,Arjun Nair,North,Office Supplies,Binder Clips,1,12.46,2.04,2024-09-24
+ORD-1048,Rohan Sharma,West,Office Supplies,Ink Cartridge,1,98.29,29.99,2024-09-24
+ORD-1007,Sneha Menon,North,Technology,Noise Cancelling Headphones,2,1413.23,402.59,2024-09-26
+ORD-1159,Aarav Menon,East,Office Supplies,Printer Paper A4,10,135.9,42.55,2024-09-26
+ORD-1136,Deepa Gupta,East,Technology,USB-C Hub,3,943.28,242.64,2024-09-29
+ORD-1218,Kavya Rao,South,Office Supplies,Ballpoint Pens (Box),4,238.45,46.65,2024-10-05
+ORD-1197,Ananya Patel,South,Furniture,Desk Lamp,6,3821.28,624.27,2024-10-05
+ORD-1188,Deepa Iyer,East,Office Supplies,Ballpoint Pens (Box),2,38.28,6.04,2024-10-08
+ORD-1103,Priya Patel,West,Furniture,Filing Cabinet,3,1265.78,145.38,2024-10-09
+ORD-1250,Suresh Iyer,South,Furniture,Bookshelf,2,288.61,34.0,2024-10-09
+ORD-1247,Ritu Menon,South,Technology,Mechanical Keyboard,4,987.98,79.41,2024-10-14
+ORD-1245,Divya Iyer,South,Technology,Mechanical Keyboard,6,2747.84,769.6,2024-10-14
+ORD-1176,Neha Nair,South,Office Supplies,Stapler,8,842.09,175.5,2024-10-14
+ORD-1117,Aarav Rao,North,Technology,USB-C Hub,2,1465.14,435.41,2024-10-14
+ORD-1289,Manoj Reddy,South,Furniture,Office Chair,11,6599.91,-157.13,2024-10-15
+ORD-1087,Priya Rao,East,Technology,Mechanical Keyboard,11,9772.43,1968.59,2024-10-15
+ORD-1208,Meera Rao,North,Technology,Wireless Mouse,8,2751.54,300.52,2024-10-19
+ORD-1275,Sanjay Gupta,Central,Furniture,Standing Desk,6,1475.86,200.85,2024-10-20
+ORD-1097,Sneha Krishnan,West,Technology,27in Monitor,10,3775.03,959.42,2024-10-21
+ORD-1155,Ritu Nair,West,Office Supplies,Whiteboard,2,201.39,45.69,2024-10-21
+ORD-1104,Divya Menon,Central,Technology,27in Monitor,6,2308.39,382.04,2024-10-28
+ORD-1072,Divya Gupta,East,Office Supplies,Ink Cartridge,10,622.89,136.45,2024-11-01
+ORD-1191,Kavya Menon,East,Technology,27in Monitor,4,592.55,49.29,2024-11-03
+ORD-1205,Rahul Gupta,South,Technology,USB-C Hub,10,7278.12,699.76,2024-11-07
+ORD-1270,Meera Verma,Central,Office Supplies,Desk Organizer,8,279.35,78.97,2024-11-09
+ORD-1172,Aditya Iyer,West,Furniture,Desk Lamp,10,1671.89,-114.74,2024-11-12
+ORD-1196,Pooja Krishnan,Central,Technology,Laptop Pro 15,5,2638.17,618.95,2024-11-19
+ORD-1300,Kavya Sharma,North,Technology,Mechanical Keyboard,5,603.59,167.44,2024-11-19
+ORD-1230,Aditya Krishnan,North,Furniture,Standing Desk,7,1491.53,-85.5,2024-11-24
+ORD-1297,Deepa Krishnan,East,Technology,External SSD 1TB,11,1142.32,121.76,2024-11-29
+ORD-1203,Sanjay Nair,West,Office Supplies,Printer Paper A4,5,300.53,44.67,2024-11-29
+ORD-1288,Aarav Reddy,West,Furniture,Storage Cabinet,3,452.59,1.98,2024-12-03
+ORD-1168,Divya Sharma,East,Furniture,Conference Table,8,2858.74,297.7,2024-12-03
+ORD-1053,Arjun Sharma,West,Furniture,Sofa Set,1,383.36,56.71,2024-12-07
+ORD-1005,Ritu Nair,East,Furniture,Conference Table,9,6102.04,869.66,2024-12-11
+ORD-1061,Deepa Rao,North,Technology,USB-C Hub,9,6120.2,1348.03,2024-12-13
+ORD-1151,Karthik Sharma,West,Office Supplies,Ink Cartridge,2,123.88,27.27,2024-12-14
+ORD-1022,Pooja Sharma,West,Furniture,Bookshelf,9,2387.69,-105.16,2024-12-14
+ORD-1040,Kavya Reddy,West,Technology,External SSD 1TB,7,793.79,49.95,2024-12-15
+ORD-1260,Ananya Reddy,West,Furniture,Filing Cabinet,4,1564.21,50.15,2024-12-15
+ORD-1192,Divya Iyer,West,Furniture,Standing Desk,5,600.48,61.12,2024-12-17
+ORD-1242,Sanjay Patel,Central,Technology,Webcam HD,11,4338.76,813.1,2024-12-17
+ORD-1153,Pooja Krishnan,North,Office Supplies,Ink Cartridge,11,356.94,118.69,2024-12-21
+ORD-1185,Meera Patel,North,Office Supplies,Desk Organizer,6,147.13,33.83,2024-12-26
+ORD-1187,Karthik Sharma,West,Furniture,Sofa Set,1,511.45,17.34,2025-01-01
+ORD-1052,Vikram Rao,South,Furniture,Filing Cabinet,7,4589.79,723.0,2025-01-03
+ORD-1244,Sneha Krishnan,South,Technology,Laptop Pro 15,9,7789.06,1320.74,2025-01-04
+ORD-1180,Sneha Iyer,South,Technology,USB-C Hub,2,1443.88,308.63,2025-01-05
+ORD-1077,Sanjay Krishnan,North,Technology,27in Monitor,7,1050.84,92.45,2025-01-08
+ORD-1286,Arjun Nair,Central,Technology,USB-C Hub,6,3030.5,689.62,2025-01-11
+ORD-1277,Divya Reddy,North,Office Supplies,Binder Clips,6,141.52,23.19,2025-01-15
+ORD-1215,Karthik Reddy,North,Technology,Mechanical Keyboard,8,6374.94,1356.07,2025-01-15
+ORD-1162,Deepa Iyer,West,Furniture,Conference Table,4,1915.55,-34.52,2025-01-16
+ORD-1271,Karthik Rao,West,Office Supplies,Whiteboard,1,58.35,20.01,2025-01-18
+ORD-1035,Aditya Menon,North,Office Supplies,Binder Clips,7,147.77,33.93,2025-01-20
+ORD-1002,Rohan Menon,North,Office Supplies,Ballpoint Pens (Box),5,582.7,179.54,2025-01-20
+ORD-1281,Divya Iyer,Central,Furniture,Sofa Set,10,3464.66,233.33,2025-01-20
+ORD-1006,Vikram Rao,North,Technology,Mechanical Keyboard,3,2466.05,282.84,2025-01-22
+ORD-1029,Sneha Sharma,North,Furniture,Office Chair,5,872.23,8.67,2025-01-26
+ORD-1154,Karthik Verma,North,Furniture,Desk Lamp,9,708.46,104.67,2025-01-28
+ORD-1149,Priya Verma,North,Technology,Laptop Pro 15,9,2906.86,822.34,2025-01-29
+ORD-1235,Ritu Reddy,North,Technology,Wireless Mouse,4,1437.65,167.43,2025-01-29
+ORD-1267,Vikram Patel,North,Technology,Noise Cancelling Headphones,7,5735.65,644.61,2025-02-03
+ORD-1063,Rahul Reddy,Central,Furniture,Sofa Set,4,1657.87,316.31,2025-02-05
+ORD-1069,Manoj Sharma,South,Office Supplies,Printer Paper A4,2,18.47,2.47,2025-02-08
+ORD-1259,Ritu Patel,East,Furniture,Desk Lamp,3,1136.65,-87.39,2025-02-09
+ORD-1266,Kavya Krishnan,North,Office Supplies,Binder Clips,4,322.2,109.28,2025-02-11
+ORD-1036,Rahul Menon,West,Technology,External SSD 1TB,7,2047.42,516.65,2025-02-11
+ORD-1157,Sanjay Gupta,North,Furniture,Bookshelf,10,3366.34,511.81,2025-02-15
+ORD-1193,Priya Sharma,North,Technology,Webcam HD,7,6171.36,886.05,2025-02-17
+ORD-1094,Manoj Krishnan,West,Technology,Webcam HD,11,4916.15,990.73,2025-02-22
+ORD-1027,Aarav Rao,South,Office Supplies,Ink Cartridge,4,58.7,8.24,2025-02-25
+ORD-1086,Aditya Rao,West,Technology,Webcam HD,8,3289.82,269.42,2025-02-28
+ORD-1210,Kavya Iyer,North,Furniture,Sofa Set,1,198.71,-14.17,2025-03-07
+ORD-1073,Manoj Gupta,Central,Office Supplies,Binder Clips,5,381.68,105.35,2025-03-10
+ORD-1074,Ananya Iyer,North,Office Supplies,Ink Cartridge,2,156.43,37.34,2025-03-10
+ORD-1209,Vikram Verma,West,Technology,External SSD 1TB,9,1099.44,226.45,2025-03-14
+ORD-1039,Manoj Nair,West,Furniture,Conference Table,10,5864.64,47.25,2025-03-19
+ORD-1071,Neha Krishnan,South,Office Supplies,Stapler,1,114.72,28.86,2025-03-21
+ORD-1043,Suresh Reddy,North,Furniture,Storage Cabinet,1,671.11,81.45,2025-03-22
+ORD-1156,Manoj Krishnan,East,Technology,USB-C Hub,1,139.63,20.13,2025-03-23
+ORD-1221,Suresh Iyer,North,Technology,Laptop Pro 15,9,1038.35,295.14,2025-03-24
+ORD-1067,Pooja Patel,West,Technology,USB-C Hub,6,5140.97,1189.77,2025-03-25
+ORD-1200,Priya Krishnan,East,Furniture,Desk Lamp,3,1221.34,226.49,2025-03-25
+ORD-1163,Aditya Reddy,West,Technology,Mechanical Keyboard,11,9564.36,2295.67,2025-03-28
+ORD-1031,Priya Reddy,Central,Office Supplies,Sticky Notes Pack,1,71.34,15.92,2025-03-28
+ORD-1150,Ananya Rao,South,Technology,External SSD 1TB,11,7283.55,1267.11,2025-03-29
+ORD-1001,Divya Reddy,North,Technology,USB-C Hub,7,2963.91,222.27,2025-04-03
+ORD-1212,Ritu Patel,North,Technology,External SSD 1TB,10,4082.52,936.53,2025-04-03
+ORD-1105,Ritu Krishnan,East,Furniture,Standing Desk,1,71.59,11.57,2025-04-04
+ORD-1243,Pooja Sharma,North,Technology,Wireless Mouse,8,5612.26,1157.06,2025-04-07
+ORD-1296,Sanjay Nair,East,Office Supplies,Desk Organizer,8,687.39,161.66,2025-04-09
+ORD-1129,Karthik Rao,Central,Technology,External SSD 1TB,1,272.12,50.33,2025-04-11
+ORD-1089,Divya Reddy,North,Office Supplies,Desk Organizer,4,478.74,155.18,2025-04-12
+ORD-1055,Aditya Reddy,East,Furniture,Filing Cabinet,5,1238.27,-1.73,2025-04-13
+ORD-1024,Vikram Iyer,South,Technology,Laptop Pro 15,8,1266.14,171.27,2025-04-17
+ORD-1084,Karthik Verma,North,Technology,27in Monitor,7,2218.92,228.24,2025-04-18
+ORD-1003,Kavya Krishnan,East,Technology,USB-C Hub,1,491.31,73.68,2025-04-20
+ORD-1287,Arjun Reddy,West,Furniture,Sofa Set,8,3010.37,446.96,2025-04-20
+ORD-1004,Aditya Patel,East,Office Supplies,Desk Organizer,7,826.5,179.09,2025-04-29
+ORD-1246,Aditya Sharma,North,Furniture,Standing Desk,8,3544.48,-253.42,2025-05-02
+ORD-1253,Aarav Nair,West,Office Supplies,Ballpoint Pens (Box),8,218.44,69.89,2025-05-05
+ORD-1131,Rahul Rao,East,Technology,Laptop Pro 15,10,4353.26,300.3,2025-05-12
+ORD-1135,Vikram Reddy,Central,Technology,External SSD 1TB,7,2070.04,581.89,2025-05-12
+ORD-1258,Sneha Patel,East,Technology,Laptop Pro 15,8,1036.47,110.24,2025-05-14
+ORD-1262,Deepa Menon,East,Furniture,Office Chair,11,5869.5,1086.41,2025-05-19
+ORD-1083,Rohan Gupta,North,Technology,External SSD 1TB,11,5473.79,420.35,2025-05-20
+ORD-1145,Sanjay Verma,South,Office Supplies,Sticky Notes Pack,11,278.31,43.17,2025-05-20
+ORD-1220,Vikram Sharma,North,Technology,Noise Cancelling Headphones,5,3752.09,921.16,2025-05-23
+ORD-1174,Vikram Nair,South,Furniture,Filing Cabinet,4,1769.54,239.15,2025-05-29
+ORD-1251,Kavya Menon,East,Office Supplies,Desk Organizer,11,1014.1,289.89,2025-05-29
+ORD-1282,Ritu Rao,South,Technology,27in Monitor,6,966.07,97.09,2025-06-03
+ORD-1181,Suresh Iyer,North,Technology,USB-C Hub,8,6071.67,661.5,2025-06-03
+ORD-1079,Meera Menon,North,Technology,USB-C Hub,5,2559.48,469.94,2025-06-07
+ORD-1164,Ananya Iyer,South,Office Supplies,Printer Paper A4,3,25.74,6.77,2025-06-07
+ORD-1273,Priya Verma,Central,Furniture,Office Chair,11,1136.39,127.67,2025-06-12
+ORD-1248,Rohan Verma,East,Furniture,Office Chair,7,4359.12,-97.95,2025-06-13
+ORD-1175,Rahul Iyer,West,Technology,Mechanical Keyboard,6,3301.32,701.77,2025-06-20
+ORD-1182,Kavya Iyer,North,Technology,Noise Cancelling Headphones,7,2766.45,186.14,2025-07-06
+ORD-1166,Kavya Reddy,North,Office Supplies,Ballpoint Pens (Box),8,887.18,225.49,2025-07-11
+ORD-1263,Suresh Sharma,South,Furniture,Standing Desk,6,1408.59,78.07,2025-07-16
+ORD-1070,Karthik Reddy,West,Technology,Noise Cancelling Headphones,6,4951.94,972.0,2025-07-18
+ORD-1280,Divya Rao,North,Office Supplies,Ink Cartridge,9,642.81,166.26,2025-07-20
+ORD-1034,Aarav Patel,South,Office Supplies,Desk Organizer,2,138.06,46.12,2025-07-23
+ORD-1146,Aditya Gupta,West,Office Supplies,Binder Clips,1,64.6,16.11,2025-07-26
+ORD-1099,Divya Rao,East,Office Supplies,Desk Organizer,3,202.28,42.05,2025-08-01
+ORD-1095,Kavya Iyer,Central,Technology,Laptop Pro 15,5,3342.73,951.29,2025-08-10
+ORD-1272,Ritu Reddy,North,Office Supplies,Whiteboard,4,212.28,25.94,2025-08-20
+ORD-1254,Vikram Iyer,West,Technology,USB-C Hub,9,3264.51,602.87,2025-08-20
+ORD-1041,Pooja Iyer,North,Furniture,Sofa Set,10,2666.92,369.52,2025-08-26
+ORD-1021,Rahul Rao,East,Office Supplies,Ink Cartridge,11,361.33,108.68,2025-09-01
+ORD-1265,Vikram Gupta,East,Furniture,Desk Lamp,2,1284.02,172.14,2025-09-03
+ORD-1045,Deepa Reddy,South,Technology,Laptop Pro 15,10,6964.93,1753.27,2025-09-03
+ORD-1294,Deepa Sharma,West,Technology,Noise Cancelling Headphones,9,3621.98,205.71,2025-09-05
+ORD-1179,Sneha Nair,South,Technology,External SSD 1TB,8,4057.91,724.33,2025-09-08
+ORD-1015,Priya Verma,South,Office Supplies,Desk Organizer,9,154.19,33.02,2025-09-11
+ORD-1240,Karthik Rao,Central,Technology,External SSD 1TB,8,903.37,206.94,2025-09-12
+ORD-1107,Rahul Gupta,West,Furniture,Storage Cabinet,1,132.47,25.89,2025-09-13
+ORD-1050,Priya Patel,West,Technology,Wireless Mouse,9,4199.33,937.39,2025-09-17
+ORD-1016,Vikram Sharma,Central,Technology,Noise Cancelling Headphones,1,236.02,37.0,2025-09-19
+ORD-1298,Divya Iyer,North,Furniture,Filing Cabinet,9,2443.15,5.18,2025-09-23
+ORD-1217,Karthik Krishnan,North,Technology,Mechanical Keyboard,7,3505.68,260.01,2025-09-24
+ORD-1126,Vikram Verma,West,Technology,USB-C Hub,1,400.14,58.33,2025-09-25
+ORD-1056,Vikram Reddy,West,Office Supplies,Desk Organizer,10,1170.39,408.45,2025-09-25
+ORD-1078,Rohan Patel,North,Furniture,Filing Cabinet,11,5359.61,-258.89,2025-09-25
+ORD-1148,Neha Reddy,East,Furniture,Office Chair,2,705.51,12.24,2025-09-26
+ORD-1093,Karthik Gupta,East,Technology,Wireless Mouse,10,8913.66,1164.02,2025-10-03
+ORD-1229,Sanjay Patel,East,Technology,Noise Cancelling Headphones,5,3557.27,586.77,2025-10-03
+ORD-1019,Karthik Sharma,West,Technology,Wireless Mouse,8,573.78,116.13,2025-10-03
+ORD-1177,Sanjay Menon,North,Furniture,Standing Desk,5,3488.27,671.28,2025-10-04
+ORD-1009,Aditya Sharma,South,Technology,Mechanical Keyboard,9,7998.5,1944.12,2025-10-09
+ORD-1283,Karthik Nair,West,Office Supplies,Ballpoint Pens (Box),6,697.75,219.25,2025-10-10
+ORD-1037,Sneha Nair,North,Office Supplies,Stapler,1,13.16,2.62,2025-10-15
+ORD-1252,Vikram Krishnan,North,Technology,27in Monitor,5,888.31,146.92,2025-10-17
+ORD-1204,Neha Patel,East,Furniture,Storage Cabinet,8,2073.9,172.34,2025-10-19
+ORD-1046,Meera Menon,East,Technology,Noise Cancelling Headphones,5,4012.73,462.36,2025-10-20
+ORD-1299,Manoj Patel,East,Technology,Webcam HD,11,9856.84,2601.46,2025-10-22
+ORD-1088,Pooja Nair,North,Technology,USB-C Hub,11,1271.42,319.72,2025-10-25
+ORD-1017,Divya Krishnan,North,Technology,27in Monitor,5,3177.47,372.89,2025-10-25
+ORD-1082,Neha Verma,South,Office Supplies,Desk Organizer,7,462.67,129.61,2025-10-27
+ORD-1285,Karthik Krishnan,South,Office Supplies,Stapler,3,196.95,55.11,2025-10-27
+ORD-1062,Aarav Menon,East,Office Supplies,Desk Organizer,5,578.85,59.64,2025-11-02
+ORD-1228,Neha Nair,East,Office Supplies,Ink Cartridge,2,73.88,23.11,2025-11-02
+ORD-1224,Rohan Gupta,West,Office Supplies,Binder Clips,4,396.62,71.64,2025-11-05
+ORD-1184,Rohan Reddy,South,Technology,Laptop Pro 15,5,1598.32,388.98,2025-11-06
+ORD-1141,Meera Krishnan,Central,Furniture,Filing Cabinet,7,2760.89,330.43,2025-11-19
+ORD-1051,Sneha Verma,North,Furniture,Conference Table,5,2701.97,383.82,2025-11-19
+ORD-1173,Arjun Gupta,East,Furniture,Desk Lamp,9,4624.19,745.84,2025-11-20
+ORD-1140,Vikram Nair,West,Technology,External SSD 1TB,1,385.66,65.55,2025-11-27
+ORD-1038,Priya Iyer,North,Office Supplies,Desk Organizer,7,575.98,104.85,2025-11-28
+ORD-1033,Karthik Rao,West,Office Supplies,Sticky Notes Pack,1,68.57,16.67,2025-11-30
+ORD-1293,Priya Rao,Central,Technology,Laptop Pro 15,6,1409.93,205.01,2025-12-02
+ORD-1232,Sneha Menon,North,Furniture,Filing Cabinet,7,3664.94,504.4,2025-12-03
+ORD-1195,Pooja Reddy,West,Technology,External SSD 1TB,9,1185.03,254.14,2025-12-04
+ORD-1264,Sanjay Reddy,Central,Office Supplies,Stapler,5,301.52,62.96,2025-12-04
+ORD-1142,Ritu Nair,South,Technology,Noise Cancelling Headphones,2,481.81,29.16,2025-12-05
+ORD-1214,Arjun Rao,East,Technology,Laptop Pro 15,1,234.92,32.59,2025-12-08
+ORD-1119,Sanjay Patel,North,Furniture,Office Chair,4,1885.89,209.68,2025-12-09
+ORD-1279,Vikram Nair,West,Furniture,Filing Cabinet,7,4103.02,57.96,2025-12-09
+ORD-1110,Rahul Patel,East,Furniture,Bookshelf,6,1037.33,51.36,2025-12-10
+ORD-1144,Neha Rao,South,Technology,Mechanical Keyboard,11,8989.23,2672.46,2025-12-11
+ORD-1198,Vikram Krishnan,South,Technology,27in Monitor,5,1595.72,225.98,2025-12-11
+ORD-1023,Sanjay Verma,West,Office Supplies,Ballpoint Pens (Box),3,294.28,55.08,2025-12-11
+ORD-1130,Suresh Iyer,West,Furniture,Bookshelf,9,4980.45,-338.77,2025-12-13
+ORD-1121,Rohan Nair,Central,Furniture,Standing Desk,10,5487.08,-318.06,2025-12-14
+ORD-1090,Manoj Rao,North,Office Supplies,Ballpoint Pens (Box),6,491.36,163.3,2025-12-15
+ORD-1054,Kavya Krishnan,South,Technology,27in Monitor,3,355.52,46.16,2025-12-18
+ORD-1096,Divya Krishnan,West,Technology,Laptop Pro 15,5,1067.0,97.01,2025-12-25
+ORD-1167,Manoj Nair,North,Furniture,Desk Lamp,4,1669.54,-53.99,2025-12-26
+ORD-1123,Rahul Nair,North,Technology,Laptop Pro 15,10,4920.94,457.25,2025-12-27
+ORD-1133,Kavya Rao,East,Office Supplies,Desk Organizer,3,267.62,80.72,2025-12-27
+ORD-1011,Divya Iyer,Central,Furniture,Filing Cabinet,1,100.68,-0.68,2025-12-28
+ORD-1020,Aarav Sharma,South,Technology,Webcam HD,3,1876.22,342.85,2025-12-30
