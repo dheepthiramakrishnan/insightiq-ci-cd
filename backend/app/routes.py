@@ -230,8 +230,13 @@ async def get_ai_insights(dataset_id: Optional[int] = None, db: Session = Depend
 
     insights = generate_business_insights(kpis, chart_data)
 
-    dataset.ai_insights = json.dumps(insights)
-    db.commit()
+        # Don't cache failures, so the next page load retries the AI call.
+    failed = insights["executive_summary"].startswith(
+        ("AI insight generation failed", "AI insights are unavailable")
+    )
+    if not failed:
+        dataset.ai_insights = json.dumps(insights)
+        db.commit()
 
     return AIInsightResponse(**insights)
 
