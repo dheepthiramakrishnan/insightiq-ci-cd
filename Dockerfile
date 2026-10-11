@@ -3,7 +3,7 @@ FROM python:3.12-slim AS test
 ENV PYTHONDONTWRITEBYTECODE=1 PIP_NO_CACHE_DIR=1
 WORKDIR /app
 COPY requirements.txt requirements-dev.txt ./
-RUN pip install -r requirements.txt -r requirements-dev.txt
+RUN pip install --retries 10 --timeout 60 -r requirements.txt -r requirements-dev.txt
 COPY . .
 ENV DATABASE_URL=sqlite:////tmp/ci_test.db
 RUN python -m pytest -q
@@ -15,7 +15,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 \
     APP_VERSION=${BUILD_NUMBER} APP_ENV=production
 WORKDIR /app
 COPY requirements.txt ./
-RUN pip install -r requirements.txt
+RUN pip install --retries 10 --timeout 60 -r requirements.txt
 COPY backend ./backend
 COPY frontend ./frontend
 RUN useradd -m appuser && mkdir -p backend/app/uploads && chown -R appuser /app
